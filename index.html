@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<!--Mobile Friendly-->
+		<title> Hugo Guan </title>
+		<link rel="shortcut icon" type="image/x-icon" href="">
+		<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+			integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+			crossorigin="anonymous"
+		/>
+		<link href="styles.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  		/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="#home" class="home__link">
+					<strong>Hugo Guan</strong>
+				</a>
+							</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+					<li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+					<li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+					<li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+					<li class="nav__item"><a href="https://drive.google.com/file/d/13aJ2z4tfEqXl62NRshJz0QK_Ag16d2kz/view?usp=sharing" target="_blank" class="nav__link">Resume</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<!--Introduction-->
+		<section class="intro" id="home">
+			<div class="introWrapper" >
+				<div class="personalPhoto  animate__animated animate__fadeInUp">
+					<img src="images/face.jpg"  alt="avatar"> 
+				</div>
+				<div class="introText animate__animated animate__fadeIn animate__delay-1s">
+					<p class="helloText">
+						<strong>
+							Hello! I'm Hugo, welcome to my site! </br>
+						</strong>
+						<p class="sectionSubtitle" style="margin-bottom: 30px;">
+							I am a 3rd Year Computer Engineering student at the University of Toronto.
+							I'm interested in software engineering and full stack development, and have a passion for building applications with easy-to-use, pixel-perfect user interfaces!<br>
+						</p>
+						<a class="landingButton" href="#projects">View Projects</a>&emsp;&emsp;
+						<a class="landingButton" href="https://drive.google.com/file/d/13aJ2z4tfEqXl62NRshJz0QK_Ag16d2kz/view?usp=sharing" target="_blank">Resume</a>
+						<!--You can check out some of my work
+						<a href="#projects">here</a>. -->
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<div id="contentContainer">
+			
+			<!--Skills-->
+			<section class="skills" id="skills">
+				<h1 class="sectionTitle">
+					Skills
+				</h1>
+				<div id="skills_wrapper">
+						<div id="skillsText">
+							<strong>Languages: </strong>
+							JavaScript, TypeScript, HTML/CSS, Python, SQL, C++<br>
+							<strong>Libraries and Tools: </strong>
+							React, Jest, Express, Git, Unix/Linux, Figma, MongoDB <br>
+							
+						</div>
+						<div id="skillsLogoWrapper">
+							<img src="images/JavaScript-logo.png" alt="JS">
+							<img src="images/cssLogo.jpeg" alt="CSS">
+							<img src="images/reactLogo.png" alt="React">
+						</div>
+				</div>
+			</section>
+			
+			<!--Education-->
+			<section class="education" id="education">
+				<h1 class="sectionTitle">
+					Education
+				</h1>
+				<p class="sectionSubtitle">University of Toronto - St. George Campus</br>
+				Bachelor of Applied Science, Computer Engineering</br>
+				Expected April 2024</p>
+			</section>
+	<!--Interests-->
+	<section class="interests" id="interests">
+		<h1 class="sectionTitle">
+			Interests
+		</h1>
+		<p class="sectionSubtitle"> Outside of my work, I enjoy making origami 📃, playing basketball 🏀, watching movies 🎬, and biking 🚴‍♂️!</br>
+			</p>
+		
+	</section>
+			<!--Projects-->
+			<section class="projects" id="projects">
+				<h1 class="sectionTitle">
+					Projects
+				</h1>
+				<div class="projectsContainer">
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://zhitianguan.github.io/React-Podcast-App/" target="_blank">
+								<img src="images/podcast.png" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">Full Stack MERN Podcast App</div>
+							<p class="projectDescription">
+								A full-stack podcast application built with the MERN stack that allows users to search and play more than
+								500,000 podcasts by calling the iTunes Search API. Additional features include user registration and podcast subscription.
+							</p>
+							<div class="projectLinks">
+								<span><a class="button" href="https://zhitianguan.github.io/React-Podcast-App/" target="_blank">Go to Site</a></span>
+								<span><a class="button" href="https://github.com/zhitianguan/React-Podcast-App" target="_blank">GitHub</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://zhitianguan.github.io/nutrition-app/" target="_blank"></a>
+								<img src="images/drivingDirections.gif" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">Vacc-Map</div>
+							<p class="projectDescription">
+								A C++ healthcare-focused map application that I worked with a team of 3 to develop. It uses the OSM (OpenStreetMap) database and API to draw geographical locations and display healthcare information. The UI is designed and built from scratch using the GTK toolkit and EZGL graphics package.
+								Key features include optimal path-finding (using Dijkstra's and A* algorithms) and multi language support.
+							</p>
+							<!--<div class="projectLinks">
+								<span><a href="" target="_blank">Learn More</a></span>
+							</div>-->
+						</div>
+					</div>
+
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://zhitianguan.github.io/nutrition-app/" target="_blank">
+								<img src="images/NutritionApp.png" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">React Nutrition Counter App</div>
+							<p class="projectDescription">
+								A React app I developed that allows users to conveniently search and receive 
+								nutrient info for food items. It uses API calls to the Edamam Food and Grocery Database to provide info for over 700,000 unique foods.
+							</p>
+							<div class="projectLinks">
+								<span><a class="button" href="https://zhitianguan.github.io/nutrition-app/" target="_blank">Go to Site</a></span>
+								<span><a class="button" href="https://github.com/zhitianguan/nutrition-app" target="_blank">GitHub</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://zhitianguan.github.io/todo-list/" target="_blank">
+								<img src="images/todo.png" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">To Do List</div>
+							<p class="projectDescription">
+								A VanillaJS app I developed to explore UI/UX design. It was fun getting 
+								into the nitty-gritty of CSS by styling everything from scratch. Feel free 
+								to play around with the app and add your own todos and projects!
+								
+							</p>
+							<div class="projectLinks">
+								<span><a class="button" href="https://zhitianguan.github.io/todo-list/" target="_blank">Go to Site</a></span>
+								<span><a class="button" href="https://github.com/zhitianguan/todo-list" target="_blank">GitHub</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="projectCard">
+						<div class="projectImg">
+							<a href="https://hugoztguan.com">
+								<img src="images/personalWebsite.png" alt="">
+							</a>
+						</div>
+						<div class="projectInfo">
+							<div class="projectTitle">Personal Website</div>
+							<p class="projectDescription">
+								The website that you are viewing right now! Built from scratch using HTML, CSS, and JavaScript.
+								
+							</p>
+							<div class="projectLinks">
+								<span><a class="button" href="https://github.com/zhitianguan/personal-website" target="_blank">GitHub</a></span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			
+		</div>
+
+
+		 <!-- Footer -->
+		 <footer id="footer">
+			<p>
+                Contact Me
+			</p>
+
+            <ul class="social-list">
+				<li class="social-list__item">
+					<a href="mailto:z.guan@mail.utoronto.ca" class="footer__link">
+						<i class="fas fa-envelope"></i>
+					</a>
+				</li>
+
+                <li class="social-list__item">
+					<a class="social-list__link"  target="_blank" href="https://linkedin.com/in/hugo-guan">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+                <li class="social-list__item">
+					<a class="social-list__link"  target="_blank" href="https://github.com/zhitianguan">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+			</ul>
+			<div class="copyright-text">© 2022 Hugo Guan. All rights reserved</div>
+        </footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
